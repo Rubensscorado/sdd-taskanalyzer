@@ -3,3 +3,4 @@
 - [x] Especificação SDD definida
 - [x] Código-fonte implementado
 - [x] Test Harness com pytest configurado
+- [x] Testes automatizados executados via Codespaces
