@@ -25,5 +25,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Executar Suite de Testes Automatizados (pytest)
+      env:
+        PYTHONPATH: .
       run: |
-        pytest tests/test_harness.py -v
+        python -m pytest tests/test_harness.py -v
