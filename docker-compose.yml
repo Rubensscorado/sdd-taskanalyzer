@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  task-analyzer-tests:
+    build: .
+    container_name: task_analyzer_container
+    volumes:
+      - .:/app
